@@ -1,0 +1,9 @@
+<html>
+<body>
+<div id="date"></div>
+</body>
+<script>
+var day = Math.floor((new Date().getTime() - new Date("2021-08-21").getTime())/60/60/1000/24)
+document.getElementById("date").innerHtml = day
+</script>
+</html>
